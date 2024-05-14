@@ -2,6 +2,9 @@
 
 Crowdfunding data was sourced from excel files than cleaned using Pandas before loading data into PostGresSQL.
 
+Due to relationship constraints contained in the SQL Schema, please load the csvs in this order:
+category, subcategory, contacts, and finally campagin funding.
+
 # Campaign Category Data Frames - split data into two unique columns, dropped uncessary data, and added unique identifers
 ![image](https://github.com/MyJineng/Crowdfunding_ETL/assets/98989716/bbf7c1c3-74d1-44c1-a914-a4e932994ba6)
 
