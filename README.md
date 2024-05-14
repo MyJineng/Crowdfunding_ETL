@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-Crowdfunding data was sourced from excel files than cleaned using Pandas before loading data into PostGresSQL.
+Crowdfunding data was sourced from excel files then cleaned using Pandas before loading data into PostGresSQL.
 
 Due to relationship constraints contained in the SQL Schema, please load the csvs in this order:
 category, subcategory, contacts, and finally campagin funding.
